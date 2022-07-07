@@ -1,0 +1,7 @@
+inherited Form1_Windows: TForm1_Windows
+  DesignerMasterStyle = 3
+  inherited ListActives: TListBox
+    Viewport.Width = 637.000000000000000000
+    Viewport.Height = 387.000000000000000000
+  end
+end

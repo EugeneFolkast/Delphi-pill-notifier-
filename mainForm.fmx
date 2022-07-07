@@ -1,0 +1,68 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    Align = Bottom
+    ClipChildren = True
+    Position.Y = 432.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object AddToListBtn: TButton
+      Align = Client
+      Size.Width = 640.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Add to list'
+    end
+  end
+  object ListActives: TListBox
+    Position.Y = 40.000000000000000000
+    Size.Width = 641.000000000000000000
+    Size.Height = 391.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 641.000000000000000000
+    Viewport.Height = 391.000000000000000000
+  end
+  object Splitter1: TSplitter
+    Align = Left
+    Cursor = crHSplit
+    MinSize = 20.000000000000000000
+    Position.X = 50.000000000000000000
+    Size.Width = 100.000000000000000000
+    Size.Height = 432.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Splitter2: TSplitter
+    Align = Right
+    Cursor = crHSplit
+    MinSize = 20.000000000000000000
+    Position.X = 621.000000000000000000
+    Size.Width = 19.000000000000000000
+    Size.Height = 432.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Image1: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Align = Left
+    Size.Width = 50.000000000000000000
+    Size.Height = 432.000000000000000000
+    Size.PlatformDefault = False
+  end
+end
